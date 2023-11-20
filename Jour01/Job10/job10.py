@@ -12,8 +12,9 @@ print(nouveaugain)
 
 
 #gain après diminution de 10%
-retrait_10_pourcent=(ajout_investissement-10)
-baissetaux=(augmentation_taux-10)
-gain_final=(retrait_10_pourcent*baissetaux)/100
+derniermontant=(ajout_investissement+nouveaugain)
+après_retrait=(derniermontant)-(derniermontant*10/100)
+réductiontaux=augmentation_taux-1
+gain_final=(après_retrait*réductiontaux)/100
 print (gain_final)
 
