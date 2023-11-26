@@ -4,3 +4,6 @@ def fonction():
     print(fruits)
 
 fonction()
+
+
+
